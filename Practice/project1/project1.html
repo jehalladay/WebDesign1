@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <style>
+            body {
+                background-color:beige;
+            }
+
+            div {
+                z-index: 1;
+            }
+
+            #first  {
+                z-index: -2;
+            }
+
+            a {
+                z-index: -1;
+            }
+
+            /* figure {
+                z-index: -1;
+            } */
+
+            figcaption {
+                z-index: 5;
+                position: relative;
+                left: 0em;
+                top: 0em;
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <a href="small.jpg" id="first">
+                <figure>
+                    <img src="small.jpg" alt="a small picture">
+                    <figcaption>
+                        a small picture
+                    </figcaption>
+                    
+                </figure>
+            </a>
+        </div>
+
+
+    </body>
+</html>
